@@ -9,8 +9,7 @@
     "start": "node dist/server.js",
     "lint": "eslint 'src/**/*.{ts,tsx}' --fix",
     "format": "prettier --write 'src/**/*.{ts,tsx,js,json,md,css}'",
-    "test": "jest --passWithNoTests --runInBand",
-    "prepare": "husky install"
+    "test": "jest --passWithNoTests --runInBand"
   },
   "keywords": [],
   "author": "",
